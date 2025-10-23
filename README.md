@@ -15,10 +15,19 @@ This script helps you get information about your EC2 instance in a clean JSON fo
 - **Simple** - Only 2 functions and simple to call each function.
 
 ## Quick Start
-**Clone the repository:** on your local machine
+**Clone the repository:** on your local machine run the following command.
    ```bash
    git clone https://github.com/noppadol26dw/get-imds.git
    cd get-imds
+   ```
+
+**Create the EC2 instance:**
+   ```bash
+   chmod +x create-test-instance.sh
+   ./create-test-instance.sh
+   
+   # This script will create the test EC2 instance
+   # Please follow-up the instruction.
    ```
 
 ### Get All Metadata
@@ -32,10 +41,6 @@ This script helps you get information about your EC2 instance in a clean JSON fo
 ./get-imds.sh placement/region
 ./get-imds.sh instance-type
 ```
-
-## Installation
-
-
 
 ## Usage Examples
 
